@@ -93,7 +93,7 @@ Run only UI tests:
 pytest tests/ -m ui
 ```
 
-Run tests excluding slow ones:
+Run tests excluding fast ones:
 
 ```bash
 pytest tests/ -m "not slow"
